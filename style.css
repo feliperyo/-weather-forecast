@@ -81,3 +81,10 @@ input {
     justify-content: center;
     margin-top: -50px;
 }
+
+@media screen and (max-width: 500px) {
+    .container-all {
+        width: 90%;
+        max-width: 400px;
+    }
+}
