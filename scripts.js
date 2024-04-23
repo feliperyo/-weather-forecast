@@ -1,8 +1,8 @@
 let chave = 'cebcd482eda57fa9a6714c1c2ba91885'
 
 function showInfos(dados) {
-    document.querySelector('.city').innerHTML = `Tempo em ${dados.name}`
-    document.querySelector('.temp').innerHTML = Math.floor(dados.main.temp) + 'ºC'
+    document.querySelector('.city').innerHTML = `${dados.name}`
+    document.querySelector('.temp').innerHTML = ', ' + Math.floor(dados.main.temp) + 'ºC'
     document.querySelector('.icon').src = 'https://openweathermap.org/img/wn/' + dados.weather[0].icon + '.png'
     document.querySelector('.description').innerHTML = dados.weather[0].description
     document.querySelector('.umidade').innerHTML = `Umidade: ${dados.main.humidity}%`
