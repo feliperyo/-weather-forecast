@@ -100,4 +100,8 @@ input {
         width: 90%;
         max-width: 400px;
     }
+
+    .icons {
+        gap: 0px;
+    }
 }
